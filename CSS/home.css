@@ -7,10 +7,11 @@
 }
 body {
     font-family: "Inter", Arial, Helvetica, sans-serif;
+    background-color: #000;
 }
 .full-viewport {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-image: url(../assets/fondo.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -189,8 +190,171 @@ body {
 
 
 
-.dos{
+.container-premium_plans{
     width: 100%;
-    height: 1000px;
-    background-color: #ff640a;
+    height: auto;
+    background-color: #000000;
 }
+.container-premium_plans .container-premium-plans_info p {
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    color: #fff;
+}
+.container-premium_plans .container-premium-plans_user {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+.container-premium_plans .container-premium-plans_user h1 {
+    font-size: 3.375rem;
+    line-height: 4rem;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 4.5rem;
+}
+.container-premium_plans .container-premium-plans_user div {
+    width: 20%;
+    height: 5rem;
+    border: .0625rem solid #ff5e00;
+    border-radius: 6.25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.container-premium_plans .container-premium-plans_user div .btn-month {
+    width: 9rem;
+    padding: 0.8rem 1rem;
+    border: none;
+    background-color: #ff5e00;
+    font-size: 0.9rem;
+    border-radius: 6.25rem;
+}
+
+.container-premium_plans .container-premium-plans_user div .btn-year {
+    width: 10rem;
+    padding: 0.3rem 1rem;
+    border: none;
+    background-color: transparent;
+    font-size: 0.9rem;
+    border-radius: 6.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.container-premium_plans .container-premium-plans_user div span {
+    font-size: 0.65rem;
+}
+/* --------- CARD PLANS ---------- */
+.container-premium_plans .container-premium-plans_card {
+    width: 100%;
+    height: 29rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+.container-premium_plans .container-premium-plans_card .premium-card_plan {
+    width: 22rem;
+    height: 27rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0;
+    border-radius: 0.9rem;
+    border: 1px solid #ff5e00;
+}
+.premium-card_plan .container-premium-card_img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.premium-card_plan .container-premium-card_img img {
+    width: 11rem;
+}
+.premium-card_plan h2 {
+    font-size: 2.125rem;
+    color: #fff;
+    margin-bottom: 0.30rem;
+}
+.premium-card_plan h4 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 100;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.premium-card_plan h4 span {
+    font-size: .8rem;
+    color: #a0a0a0;
+    font-weight: 100;
+}
+.premium-card_plan h4 .plan-year {
+    font-size: 1.3rem;
+    display: none;
+}
+.premium-card_plan button {
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 3rem;
+    border: .0625rem solid #ff5e00;
+    color: #ff5e00;
+    background-color: transparent;
+    margin: 0.6rem 0;
+}
+.premium-card_plan a {
+    font-size: .9rem;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 1.4rem;
+}
+.premium-card_plan .info-card_plan {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.premium-card_plan .info-card_plan div {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.premium-card_plan .info-card_plan img {
+    width: 1rem;
+    margin: 0 0.5rem;
+}
+.premium-card_plan .info-card_plan .paragraf-card {
+    font-size: .91rem;
+    color: #f8f8f8;
+}
+.premium-card_plan .info-card_plan .paragraf-card span {
+    color: #ff5e00;
+}
+/* --------------- END CARDS -------------- */
+
+.container-premium_plans .container-premium-plans_promo {
+    width: 40%;
+    height: 5rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-premium_plans .container-premium-plans_promo {
+    text-align: center;
+    font-size: .7rem;
+    margin-top: 1rem;
+    color: #dadada;
+}
+
