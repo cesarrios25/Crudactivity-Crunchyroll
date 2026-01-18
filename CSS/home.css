@@ -187,9 +187,7 @@ body {
                 /* -------------------- */
 
 
-
-
-
+/* --------------- SECTION PLANS MEMBERSHIPS  ----------------- */
 .container-premium_plans{
     width: 100%;
     height: auto;
@@ -357,4 +355,137 @@ body {
     margin-top: 1rem;
     color: #dadada;
 }
+/* --------------- END SECTION PLANS MEMBERSHIPS  ----------------- */
+                /* -------------------------- */
+
+
+/* --------------- SECTION SERIES  ----------------- */
+.container-principal_series {
+    width: 100%;
+    height: auto;
+    margin-top: 3.5rem;
+    border: 1px solid yellowgreen;
+}
+.container-principal_series .content-title_description {
+    width: 100%;
+    height: auto;
+}
+.container-principal_series .content-title_description h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0.9rem;
+    color: #fff;
+}
+.container-principal_series .content-title_description p {
+    width: 30%;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    color: #dadada;
+}
+/* ------- CONTAINER CARDS --------  */
+.container-principal_series .container-content_card {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    width: calc((180px * 6) + (0.6rem * 5));
+    margin: 0 auto;
+    padding: 1rem 1.3rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+.contenedor {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    width: calc((180px * 6) + (0.6rem * 5));
+    margin: 0 auto;
+    padding: 1rem 1.3rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+.container-content_card .card-series {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 0 0 auto;
+}
+.container-content_card .card-series:hover {
+    background-color: #7e7e7e2b;
+    transition: .2s ease-in-out;
+}
+.container-content_card .card-series img {
+    width: 9rem;
+    margin-top: 1rem;
+}
+.container-content_card .card-series p {
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+    color: #a0a0a0;
+}
+.container-content_card .card-next {
+    width: 2.3rem;
+    filter: brightness(0) invert(1) opacity(0.6);
+}
+.container-content_card .card-next:hover {
+    background-color: rgba(128, 128, 128, 0.189);
+    cursor: pointer;
+}
+/* ----------- END CONTAINER CARDS ------------ */
+
+.container-offline_series {
+    width: 80%;
+    height: 50rem;
+    margin: 0 auto;
+    background-image: url(../assets/fondo-offline.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+.container-offline_series .container-img_offline {
+    display: flex;
+    width: 50%;
+}
+.container-offline_series .container-img_offline img {
+    width: 35rem;
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+}
+.container-offline_series .container-img_offline .offline-img_r {
+    width: 26rem;
+    height: 15rem;
+    position: absolute;
+    bottom: 73px;
+    left: 525px;
+}
+/*  */
+.container-offline_series .container-img-offline_info {
+    width: 50%;
+}
+.container-offline_series .container-img-offline_info img {
+    width: 2rem;
+    position: absolute;
+    top: 200px;
+    right: 535px;
+}
+.container-offline_series .container-img-offline_info h1 {
+    margin-top: 12rem;
+    text-align: center;
+    font-size: 2.1rem;
+}
+.container-offline_series .container-img-offline_info p {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
 
