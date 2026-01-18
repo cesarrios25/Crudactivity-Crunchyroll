@@ -8,7 +8,6 @@ function saveUsers(users) {
 
 const loginForm = document.getElementById("formUser");
 
-if (loginForm) {
   loginForm.addEventListener("submit", (e) => {
     e.preventDefault();
 
@@ -31,5 +30,5 @@ if (loginForm) {
 
     window.location.href = "index.html";
   });
-}
+
 

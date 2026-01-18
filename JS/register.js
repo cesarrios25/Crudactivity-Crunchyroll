@@ -8,7 +8,6 @@ function saveUsers(users) {
 
 const registerForm = document.getElementById("formUser");
 
-if (registerForm) {
   registerForm.addEventListener("submit", (e) => {
     e.preventDefault();
 
@@ -29,4 +28,3 @@ if (registerForm) {
     alert("Cuenta creada correctamente");
     window.location.href = "login.html";
   });
-}
