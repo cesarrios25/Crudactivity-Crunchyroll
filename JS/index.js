@@ -1,15 +1,18 @@
-// let scrollTimeout;
-// const navbar = document.querySelector(".navbar");
+let scrollTimeout;
+const navbar = document.querySelector("#navbar");
 
-// window.addEventListener("scroll", () => {
-  
-//   navbar.classList.add("hidden");
+window.addEventListener("scroll", () => {
+  // Oculta mientras se hace scroll
+  navbar.classList.add("hidden");
 
-  
-//   clearTimeout(scrollTimeout);
+  // Reinicia el timeout
+  clearTimeout(scrollTimeout);
 
-  
-//   scrollTimeout = setTimeout(() => {
-//     navbar.classList.remove("hidden");
-//   }, 150); 
-// });
+  // Cuando se deja de scrollear, aparece
+  scrollTimeout = setTimeout(() => {
+    navbar.classList.remove("hidden");
+  }, 200);
+});
+
+
+

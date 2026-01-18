@@ -8,10 +8,10 @@ function saveUsers(users) {
   localStorage.setItem("users", JSON.stringify(users));
 }
 
-const loginForm = document.getElementById("formUser");
+const registerForm = document.getElementById("formUser");
 
-if (loginForm) {
-  loginForm.addEventListener("submit", (e) => {
+if (registerForm) {
+  registerForm.addEventListener("submit", (e) => {
     e.preventDefault();
 
     const email = document.getElementById("InputEmail").value;
@@ -19,19 +19,16 @@ if (loginForm) {
 
     const users = getUsers();
 
-    const userValid = users.find(
-      user => user.email === email && user.password === password
-    );
-
-    if (!userValid) {
-      alert("Credenciales incorrectas");
+    const userExists = users.some(user => user.email === email);
+    if (userExists) {
+      alert("Este usuario ya existe");
       return;
     }
 
-    alert("Inicio de sesión exitoso");
-    localStorage.setItem("userLogged", email);
+    users.push({ email, password });
+    saveUsers(users);
 
-    window.location.href = "index.html";
+    alert("Cuenta creada correctamente");
+    window.location.href = "login.html";
   });
 }
-

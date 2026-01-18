@@ -47,8 +47,8 @@ a {
     outline: none;
     border-bottom: 1px solid gray;
     width: 43rem;
-    font-size: 1.5rem;
     color: #fff;
+    font-size: 1.6rem;
 }
 .container-form .btn-submit {
     display: flex;
@@ -75,22 +75,35 @@ a {
     margin-top: 2rem;
     text-align: center;
 }
-.container-form .recovery a {
+.container-form .recovery p {
     font-size: 1.4rem;
-    color: rgb(255, 112, 28);
-}
-.container-form .recovery span {
     color: #fff;
-    margin: 0px 0.7rem;
 }
 .container-form .recovery a {
     text-decoration: none;
     color: rgb(255, 112, 28);
+    margin-left: 1rem;
 }
 .container-form .recovery a:hover {
     color: #fff;
     cursor: pointer;
 }
+.container-form .info {
+    width: 34rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+.container-form .info p {
+    color: #fff;
+}
+.container-form .info a {
+    color: rgb(255, 112, 28);
+}
+.container-form .info a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
 /* -------------- CONTAINER FOOTER ------------- */
 .links-footer {
     display: flex;
@@ -136,7 +149,7 @@ a {
 }
 .container-info2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .container-info {
