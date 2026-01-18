@@ -364,7 +364,6 @@ body {
     width: 100%;
     height: auto;
     margin-top: 3.5rem;
-    border: 1px solid yellowgreen;
 }
 .container-principal_series .content-title_description {
     width: 100%;
@@ -484,6 +483,140 @@ body {
 .container-offline_series .container-img-offline_info p {
     width: 60%;
     margin: 0 auto;
+}
+/* --------------- END SECTION SERIES  ----------------- */
+                /* -------------------------- */
+
+
+/* --------------- SECTION DEVICE CONTAINER  ----------------- */
+.containe-device {
+    width: 90%;
+    height: 35rem;
+    display: flex;
+    padding: 2rem;
+    margin: 0 auto;
+}
+/* ----- CONTAINER LEFT ----- */
+.containe-device .content-info_device {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+.containe-device .content-info_device div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containe-device .content-info_device img {
+    width: 2rem;
+    margin-right: 1rem;
+    filter: brightness(0) invert(1) opacity(0.6);
+}
+
+.containe-device .content-info_device h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+}
+.containe-device .content-info_device p {
+    font-size: 1rem;
+    width: 24rem;
+    margin-top: 1rem;
+    color: #dadada;
+}
+/* ----- CONTAINER RIGHT ----- */
+.containe-device .content_device {
+    width: 50%;
+    display: flex;
+    justify-content: center;align-items: center;
+    position: relative;
+    margin-right: 4rem;
+}
+.containe-device .content_device .content-image_fondo {
+    width: 40rem;
+}
+.containe-device .content_device .content-image_device {
+    width: 47rem;
+    position: absolute;
+    bottom: 0;
+}
+/* --------------- END SECTION DEVICE CONTAINER  ----------------- */
+                /* ----------------------------- */
+
+
+/* --------------- SECTION QUESTIONS AND FOOTER  ----------------- */
+.container-questions {
+    width: 100%;
+    height: 20rem;
+    margin-top: 4rem;
+}
+.content_questions h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #dadada;
+    margin-bottom: 0.8rem;
+}.content_questions .paragraf1 {
+    text-align: center;
+    margin-bottom: 6rem;
+    color: #dadada;
+}
+.content_questions .paragraf1 a {
+    text-decoration: none;
+    color: #ff5e00;
+}
+.content_questions .paragraf1 a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.content_questions .paragraf2 {
+    text-align: center;
+    color: #dadada;
+}
+/*  */
+.container-footer {
+    width: 100%;
+    height: 8rem;
+}
+.container-footer hr {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border: 1px solid #fff;
+}
+.container-footer .container-content_footer {
+    display: flex;
+    justify-content: center;
+}
+.container-footer .container-content_footer a {
+    text-decoration: none;
+    color: #dadada;
+}
+.container-footer .container-content_footer span {
+    color: #dadada;
+    margin: 0 1rem;
+}
+/*  */
+.container-footer .container-footer_section2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-footer_section2 .content-footer_left img {
+    width: 22rem;
+    margin-top: 1rem;
+}
+.container-footer_section2 .content-footer_right select {
+    background-color: transparent;
+    border: none;
+    color: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.3rem;
 }
 
 
