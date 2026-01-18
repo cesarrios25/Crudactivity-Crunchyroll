@@ -1,9 +1,7 @@
-// Obtener usuarios del localStorage
 function getUsers() {
   return JSON.parse(localStorage.getItem("users")) || [];
 }
 
-// Guardar usuarios
 function saveUsers(users) {
   localStorage.setItem("users", JSON.stringify(users));
 }
